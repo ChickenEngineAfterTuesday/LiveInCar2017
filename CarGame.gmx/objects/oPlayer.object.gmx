@@ -201,12 +201,14 @@ show_debug_message("direction to building from player: " + string(dirToObj) + "p
     
 if(abs(direction - dirToObj) &lt; 15)
 {
-    //move_bounce_solid(false);
-    speed = 0;
+    speed = -speed*0.5;
+    x = xprevious;
+    y = yprevious;
 }   
 else
 {
-    speed *= 0.5
+    direction += (direction - dirToObj);
+    speed *= 0.5;
     //move_bounce_solid(false);
 }
     
