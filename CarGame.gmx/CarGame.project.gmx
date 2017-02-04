@@ -14,6 +14,8 @@
     <sprite>sprites\sCarBlue</sprite>
     <sprite>sprites\sCarPink</sprite>
     <sprite>sprites\sIntersection</sprite>
+    <sprite>sprites\sRoadvert</sprite>
+    <sprite>sprites\sprite9</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -35,9 +37,11 @@
     <object>objects\oBuilding</object>
     <object>objects\oRoad</object>
     <object>objects\oScript</object>
+    <object>objects\oRoadvert</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
+    <room>rooms\room2</room>
     <room>rooms\rmMenu</room>
   </rooms>
   <help>
