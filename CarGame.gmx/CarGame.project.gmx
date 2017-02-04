@@ -17,6 +17,7 @@
     <sprite>sprites\sRoadvert</sprite>
     <sprite>sprites\sDashboard</sprite>
     <sprite>sprites\sSamplePortrait</sprite>
+    <sprite>sprites\sPassenger</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -43,6 +44,8 @@
     <object>objects\oIntersection</object>
     <object>objects\oDashboard</object>
     <object>objects\oPortrait</object>
+    <object>objects\oPassenger</object>
+    <object>objects\oSpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
