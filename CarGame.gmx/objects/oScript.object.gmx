@@ -32,7 +32,7 @@ colonel[3] = "Ya can't abandon family. Kin gotta stay together.";
 colonel[4] = "Now this might seem like unnecessary escalation but";
 colonel[5] = "take my MAGIC GUN.";
 
-scrText(colonel[0],2,view_xview[0], view_hview[0]-42);
+scrText(colonel[0],.5,view_xview[0], view_hview[0]-42);
 </string>
           </argument>
         </arguments>

@@ -29,7 +29,7 @@
 print = "";
 time = 0;
 depth = depth - instance_number(oText);
-
+draw = true;
 </string>
           </argument>
         </arguments>
@@ -53,10 +53,13 @@ depth = depth - instance_number(oText);
           <argument>
             <kind>1</kind>
             <string>//Add letters over time
-if (time &lt; text_length)
+if (draw == true)
 {
-    time += spd;
-    print = string_copy(text,0,time)
+    if (time &lt; text_length)
+    {
+        time += spd;
+        print = string_copy(text,0,time)
+    } else if (time == text_length) time = 0;
 }
 </string>
           </argument>
@@ -79,28 +82,31 @@ if (time &lt; text_length)
           <argument>
             <kind>1</kind>
             <string>///Render textbox &amp; text
-draw_set_alpha(alpha);
-if (alpha &lt; 1) 
-    alpha += spd/10;
-else alpha = 1;
-
-draw_set_font(font);
-draw_set_color(c_black);
-draw_rectangle(0,288,boxwidth,boxheight,0);
-
-draw_set_color(c_white);
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-draw_text_ext
-(
-    x + padding,
-    y + padding,
-    print,
-    font_size+(font_size/2),
-    maxlength
-);
-
-draw_set_alpha(1);
+if (draw == true)
+{
+    draw_set_alpha(alpha);
+    if (alpha &lt; 1) 
+        alpha += spd/10;
+    else alpha = 1;
+    
+    draw_set_font(font);
+    draw_set_color(c_black);
+    draw_rectangle(0,288,boxwidth,boxheight,0);
+    
+    draw_set_color(c_white);
+    draw_set_halign(fa_left);
+    draw_set_valign(fa_top);
+    draw_text_ext
+    (
+        x + padding,
+        y + padding,
+        print,
+        font_size+(font_size/2),
+        maxlength
+    );
+    
+    draw_set_alpha(1);
+}
 </string>
           </argument>
         </arguments>
@@ -172,6 +178,30 @@ draw_text_ext
 );
 
 draw_set_alpha(1);*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="18">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Advance text
+
 </string>
           </argument>
         </arguments>
