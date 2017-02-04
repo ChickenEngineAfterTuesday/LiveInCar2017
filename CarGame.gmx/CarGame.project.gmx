@@ -15,6 +15,7 @@
     <sprite>sprites\sCarPink</sprite>
     <sprite>sprites\sIntersection</sprite>
     <sprite>sprites\sRoadvert</sprite>
+    <sprite>sprites\sDashboard</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -39,6 +40,7 @@
     <object>objects\oNPC</object>
     <object>objects\oRoadvert</object>
     <object>objects\oIntersection</object>
+    <object>objects\oDashboard</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
