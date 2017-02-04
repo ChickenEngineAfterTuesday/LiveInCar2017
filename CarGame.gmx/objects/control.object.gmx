@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
+            <string>//scrText("This is a text string",0.5,xprevious, yprevious);
+
+scrText("This is a text string",2,view_xview[0], view_hview[0]-42);
+</string>
           </argument>
         </arguments>
       </action>
@@ -47,7 +50,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_sprite(sDash,0,0,(room_height*.8))
+            <string>//draw_sprite(sDash,0,0,(room_height*.8))
 </string>
           </argument>
         </arguments>

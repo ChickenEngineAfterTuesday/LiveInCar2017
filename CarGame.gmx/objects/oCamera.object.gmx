@@ -60,8 +60,8 @@ viewy2 = viewy2;
 x = oPlayer.x;
 y = oPlayer.y;
 
-viewx = ((x-view_wview[0]/2)*(viewdist-1)+(lengthdir_x(64,oPlayer.direction)-view_wview[0]/2))/viewdist;
-viewy = ((y-view_hview[0]/2)*(viewdist-1)+(lengthdir_y(64,oPlayer.direction)-view_hview[0]/2))/viewdist;
+viewx = ((x-view_wview[0]/2)*(viewdist-1)+(xprevious-view_wview[0]/2))/viewdist;
+viewy = ((y-view_hview[0]/2)*(viewdist-1)+(yprevious-view_hview[0]/2))/viewdist;
 viewx2 = viewx2-(viewx2-viewx)*0.4;
 viewy2 = viewy2-(viewy2-viewy)*0.4;
 
