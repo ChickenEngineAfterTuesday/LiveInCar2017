@@ -38,6 +38,7 @@
     <sprite>sprites\sSamplePortrait</sprite>
     <sprite>sprites\sPassenger</sprite>
     <sprite>sprites\sTestDestination</sprite>
+    <sprite>sprites\sPerson</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -48,7 +49,11 @@
     </scripts>
     <scripts name="quest">
       <script>scripts\dialogue.gml</script>
+      <script>scripts\template.gml</script>
       <script>scripts\stringHash.gml</script>
+      <script>scripts\waitforgame.gml</script>
+      <script>scripts\spawnPerson.gml</script>
+      <script>scripts\endquest.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -72,7 +77,11 @@
     <object>objects\oSpawner</object>
     <object>objects\oMenu</object>
     <object>objects\oQuest</object>
+<<<<<<< HEAD
     <object>objects\oDestination</object>
+=======
+    <object>objects\oPerson</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
