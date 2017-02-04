@@ -54,14 +54,14 @@ draw = true;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//Add letters over time
+            <string>///Add letters over time
 if (draw == true)
 {
     if (time &lt; text_length)
     {
         time += spd;
         print = string_copy(text,0,time)
-    } else if (time == text_length) time = 0;
+    }
 }
 </string>
           </argument>
