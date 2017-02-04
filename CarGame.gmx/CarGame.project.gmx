@@ -8,13 +8,28 @@
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sDash</sprite>
+    <sprite>sprites\sTemptext</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="Dialogue">
+      <script>scripts\scrScript.gml</script>
+      <script>scripts\scrText.gml</script>
+    </scripts>
+  </scripts>
+  <fonts name="fonts">
+    <font>fonts\fConsolas</font>
+    <font>fonts\fnt</font>
+  </fonts>
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\control</object>
+<<<<<<< HEAD
     <object>objects\oCamera</object>
+=======
+    <object>objects\oText</object>
+>>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
