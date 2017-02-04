@@ -37,6 +37,7 @@
     <sprite>sprites\sDashboard</sprite>
     <sprite>sprites\sSamplePortrait</sprite>
     <sprite>sprites\sPassenger</sprite>
+    <sprite>sprites\sTestDestination</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -71,6 +72,7 @@
     <object>objects\oSpawner</object>
     <object>objects\oMenu</object>
     <object>objects\oQuest</object>
+    <object>objects\oDestination</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
