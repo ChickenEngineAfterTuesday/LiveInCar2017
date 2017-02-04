@@ -77,11 +77,8 @@
     <object>objects\oSpawner</object>
     <object>objects\oMenu</object>
     <object>objects\oQuest</object>
-<<<<<<< HEAD
     <object>objects\oDestination</object>
-=======
     <object>objects\oPerson</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
