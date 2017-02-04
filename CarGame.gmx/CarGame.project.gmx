@@ -35,6 +35,7 @@
     <object>objects\oBuilding</object>
     <object>objects\oRoad</object>
     <object>objects\oScript</object>
+    <object>objects\oNPC</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>

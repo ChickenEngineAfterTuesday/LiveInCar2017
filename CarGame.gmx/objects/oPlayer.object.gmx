@@ -37,6 +37,8 @@ accel = 1.4;
 var lastDirection;
 
 drift = false;
+spinTimer = 0;
+spinoutDirection = 0;
 </string>
           </argument>
         </arguments>
@@ -137,6 +139,67 @@ if(turnAccel &gt; 0 &amp;&amp; keyboard_check(ord('M')))
 if(keyboard_check(ord('R')))
 {
     room_restart();
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///collision
+
+if(spinTimer)
+{
+    direction += spinoutDirection;
+    spinTimer--;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="oBuilding">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>event = choose(1,2);
+
+if(event == 1)
+{
+    move_bounce_solid(true)
+}
+else if(event == 2)
+{
+    move_bounce_solid(true)
+    spinoutDirection = irandom_range(-10,10)
+    spinTimer = random_range(60,120);
 }
 </string>
           </argument>
