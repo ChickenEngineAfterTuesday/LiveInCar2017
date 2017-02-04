@@ -197,8 +197,10 @@ if(spinTimer)
             <string>dirToObj = point_direction(x,y,other.x+48,other.y+48);
 
 show_debug_message("direction to building from player: " + string(dirToObj) + "player's direction: " + string(direction) + "Difference: " +string(dirToObj-direction));
-    
-    
+  
+move_bounce_solid(true);
+  
+/* 
 if(abs(direction - dirToObj) &lt; 15)
 {
     speed = -speed*0.5;
