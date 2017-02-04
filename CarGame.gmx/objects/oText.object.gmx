@@ -30,6 +30,8 @@ print = "";
 time = 0;
 depth = depth - instance_number(oText);
 draw = true;
+
+
 </string>
           </argument>
         </arguments>
@@ -91,14 +93,11 @@ if (draw == true)
     
     draw_set_font(font);
     draw_set_color(c_black);
-    draw_rectangle(0,288,boxwidth,boxheight,0);
-    
-    draw_set_color(c_white);
     draw_set_halign(fa_left);
     draw_set_valign(fa_top);
     draw_text_ext
     (
-        x + padding,
+        x + 132,
         y + padding,
         print,
         font_size+(font_size/2),

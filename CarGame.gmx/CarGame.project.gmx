@@ -16,6 +16,7 @@
     <sprite>sprites\sIntersection</sprite>
     <sprite>sprites\sRoadvert</sprite>
     <sprite>sprites\sDashboard</sprite>
+    <sprite>sprites\sSamplePortrait</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -41,6 +42,7 @@
     <object>objects\oRoadvert</object>
     <object>objects\oIntersection</object>
     <object>objects\oDashboard</object>
+    <object>objects\oPortrait</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room2</room>
