@@ -25,11 +25,8 @@
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\control</object>
-<<<<<<< HEAD
     <object>objects\oCamera</object>
-=======
     <object>objects\oText</object>
->>>>>>> origin/master
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
