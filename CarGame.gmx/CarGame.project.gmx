@@ -14,6 +14,7 @@
   <objects name="objects">
     <object>objects\oPlayer</object>
     <object>objects\control</object>
+    <object>objects\oCamera</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>

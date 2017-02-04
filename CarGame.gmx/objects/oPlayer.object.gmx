@@ -27,16 +27,14 @@
             <kind>1</kind>
             <string>///Variables
 
-//x velocity: hspeed
-//y velocity: vspeed
-// angle: direction
-
-drag = 0.8;
-angularVelocity = 0.5; //idk
-angularDrag = 0.5; //idk
-turnSpeed = 1;
-
-pwr = 1;
+maxSpeed = 30;
+maxTurnAccel = 10;
+turnSpeed = 6;
+turnAccel = 0;
+angularDrag = 0.7;
+drag = 0.9;
+accel = 1.4;
+var lastDirection;
 </string>
           </argument>
         </arguments>
@@ -59,52 +57,79 @@ pwr = 1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Controls / Physics
+            <string>image_angle = direction;
 
-//physics
+lastDirection = direction;
 
-hspeed *= drag;
-vspeed *= drag;
-direction += angularVelocity;
-angularVelocity *= angularDrag;
+dirdiff = abs(direction - lastDirection);
 
-vspeed += cos(direction)*pwr
-hspeed += cos(direction)*pwr
+speed *= drag;
+turnAccel *= angularDrag;
+direction += turnAccel * (speed/maxSpeed);
+
+if(turnAccel &gt; maxTurnAccel)
+{
+    turnAccel = maxTurnAccel;
+}
+
+if(turnAccel &lt; -maxTurnAccel)
+{
+    turnAccel = -maxTurnAccel;
+}
+
+if(speed &gt; maxSpeed)
+{
+    speed = maxSpeed;
+}
 
 if(keyboard_check(ord('W')))
 {
-    
+    speed += accel;
 }
 
 if(keyboard_check(ord('S')))
 {
-    speed += cos(direction)*pwr
+    speed -= accel;   
 }
 
 if(keyboard_check(ord('A')))
 {
-    angularVelocity -= turnSpeed
+    //direction += turnAccel;
+    turnAccel += turnSpeed;
 }
 
 if(keyboard_check(ord('D')))
 {
-    direction-=6;
+    //direction -= turnAccel;
+    turnAccel -= turnSpeed;
 }
 
-/*
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///debug
 
-speed *=0.95;
-
-if(keyboard_check(ord('W'))){speed+=1;}
-if(keyboard_check(ord('S'))){speed-=1;}
-if(keyboard_check(ord('A'))){direction+=6;}
-if(keyboard_check(ord('D'))){direction-=6;}
-
-if(keyboard_check(ord('R'))){room_restart();}
-
-maxspeed = 10;
-if(abs(speed) &gt; abs(maxspeed)){speed = maxspeed;}
-if(abs(speed) &lt; 1){speed = 0}
+if(keyboard_check(ord('R')))
+{
+    room_restart();
+}
 </string>
           </argument>
         </arguments>
@@ -131,6 +156,27 @@ if(abs(speed) &lt; 1){speed = 0}
 
 //draw_text(view_hview/2,view_yview/2,("direction: " + direction));
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///debug
 </string>
           </argument>
         </arguments>
