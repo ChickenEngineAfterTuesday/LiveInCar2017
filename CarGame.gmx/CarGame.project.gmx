@@ -9,6 +9,8 @@
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sDash</sprite>
     <sprite>sprites\sTemptext</sprite>
+    <sprite>sprites\sRoad</sprite>
+    <sprite>sprites\sBuilding</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -27,6 +29,8 @@
     <object>objects\control</object>
     <object>objects\oCamera</object>
     <object>objects\oText</object>
+    <object>objects\oBuilding</object>
+    <object>objects\oRoad</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>
