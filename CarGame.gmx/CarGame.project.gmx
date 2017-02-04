@@ -46,11 +46,12 @@
     <object>objects\oPortrait</object>
     <object>objects\oPassenger</object>
     <object>objects\oSpawner</object>
+    <object>objects\oMenu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rmMenu</room>
     <room>rooms\room2</room>
     <room>rooms\rmGame</room>
-    <room>rooms\rmMenu</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
