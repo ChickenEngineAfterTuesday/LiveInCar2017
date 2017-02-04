@@ -11,9 +11,6 @@
     <sprite>sprites\sTemptext</sprite>
     <sprite>sprites\sRoad</sprite>
     <sprite>sprites\sBuilding</sprite>
-    <sprite>sprites\sCarBlue</sprite>
-    <sprite>sprites\sCarPink</sprite>
-    <sprite>sprites\sIntersection</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -34,7 +31,6 @@
     <object>objects\oText</object>
     <object>objects\oBuilding</object>
     <object>objects\oRoad</object>
-    <object>objects\oScript</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmGame</room>

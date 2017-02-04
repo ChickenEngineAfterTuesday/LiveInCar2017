@@ -57,63 +57,11 @@ shake = 0;
 viewx2 = viewx2;
 viewy2 = viewy2;
 
+x = oPlayer.x;
+y = oPlayer.y;
 
-
-/*
-if(oPlayer.speed &gt; 0)
-{
-    x = oPlayer.x + lengthdir_x(64,oPlayer.direction);
-    if(oPlayer.direction &lt; 360 &amp;&amp; oPlayer.direction &gt; 180)
-    {
-        y = oPlayer.y + lengthdir_y(16,oPlayer.direction);
-    }
-    else
-    {
-        y = oPlayer.y + lengthdir_y(64,oPlayer.direction);
-    }
-}
-else if(oPlayer.speed &lt; 0)
-{
-    x = oPlayer.x - lengthdir_x(64,oPlayer.direction);
-    if(oPlayer.direction &lt; 360 &amp;&amp; oPlayer.direction &gt; 180)
-    {
-        y = oPlayer.y - lengthdir_y(16,oPlayer.direction);
-    }
-    else
-    {
-        y = oPlayer.y - lengthdir_y(64,oPlayer.direction);
-    }
-}
-
- */
- 
-if(oPlayer.speed &gt; 0)
-{
-    x = oPlayer.x + lengthdir_x(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    if(oPlayer.direction &lt; 360 &amp;&amp; oPlayer.direction &gt; 180)
-    {
-        y = oPlayer.y + lengthdir_y(16*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    }
-    else
-    {
-        y = oPlayer.y + lengthdir_y(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    }
-}
-else if(oPlayer.speed &lt; 0)
-{
-    x = oPlayer.x - lengthdir_x(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    if(oPlayer.direction &lt; 360 &amp;&amp; oPlayer.direction &gt; 180)
-    {
-        y = oPlayer.y - lengthdir_y(16*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    }
-    else
-    {
-        y = oPlayer.y - lengthdir_y(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
-    }
-}
-
-viewx = ((x-view_wview[0]/2)*(viewdist-1)+((x+lengthdir_x(64,oPlayer.direction))-view_wview[0]/2))/viewdist;
-viewy = ((y-view_hview[0]/2)*(viewdist-1)+((y+lengthdir_y(64,oPlayer.direction))-view_hview[0]/2))/viewdist;
+viewx = ((x-view_wview[0]/2)*(viewdist-1)+(xprevious-view_wview[0]/2))/viewdist;
+viewy = ((y-view_hview[0]/2)*(viewdist-1)+(yprevious-view_hview[0]/2))/viewdist;
 viewx2 = viewx2-(viewx2-viewx)*0.4;
 viewy2 = viewy2-(viewy2-viewy)*0.4;
 
