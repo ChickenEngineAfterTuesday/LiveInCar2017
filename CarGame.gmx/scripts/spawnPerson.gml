@@ -3,7 +3,10 @@
 if(loadedScriptVariables)
 {
     //actual functionality
-    scrText(text,1,x,y);
+    with(instance_create(x,y,oPerson))
+    {
+        //
+    }
     stepCompleted=true;
 }
 else
