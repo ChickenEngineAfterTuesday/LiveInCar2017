@@ -63,7 +63,6 @@ var dirToObj;
           <argument>
             <kind>1</kind>
             <string>///Controls
-
 image_angle = direction;
 
 lastDirection = direction;
@@ -195,26 +194,27 @@ if(spinTimer)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event = choose(1,2);
+            <string>dirToObj = point_direction(x,y,other.x+48,other.y+48);
 
-if(event == 1)
+show_debug_message("direction to building from player: " + string(dirToObj) + "player's direction: " + string(direction) + "Difference: " +string(dirToObj-direction));
+    
+    
+if(abs(direction - dirToObj) &lt; 15)
 {
-    dirToObj = point_direction(x,y,other.x+48,other.y+48);
+    //move_bounce_solid(false);
+    speed = 0;
+}   
+else
+{
+    speed *= 0.5
+    //move_bounce_solid(false);
+}
     
-    show_debug_message(string(direction - dirToObj));
+  
     
-    //
-    
-    //move_bounce_solid(true
+   
     //speed *= 0.5;
-}
-else if(event == 2)
-{
-    move_bounce_solid(true);
-   // speed = maxSpeed;
-    //spinoutDirection = irandom_range(-30,30)
-    //spinTimer = random_range(30,60);
-}
+
 </string>
           </argument>
         </arguments>
