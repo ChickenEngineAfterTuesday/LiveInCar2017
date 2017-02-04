@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,29 +25,14 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string></string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="8" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>//draw_sprite(sDash,0,0,(room_height*.8))
+            <string>colonel[0] = "Psst. ALT. (or F to ignore Fun Dialogue)"
+colonel[1] = "Ahem. I say, what do we have here?";
+colonel[2] = "You ain't gonna just leave your pal, are ya, chicky?";
+colonel[3] = "Ya can't abandon family. Kin gotta stay together.";
+colonel[4] = "Now this might seem like unnecessary escalation but";
+colonel[5] = "take my MAGIC GUN.";
+
+scrText(colonel[0],2,view_xview[0], view_hview[0]-42);
 </string>
           </argument>
         </arguments>
