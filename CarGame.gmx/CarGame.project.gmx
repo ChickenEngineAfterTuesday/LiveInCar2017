@@ -41,9 +41,16 @@
     <sprite>sprites\sPerson</sprite>
     <sprite>sprites\sTiredust</sprite>
     <sprite>sprites\sprite14</sprite>
+    <sprite>sprites\sNPCtarget</sprite>
   </sprites>
   <backgrounds name="background"/>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\traffic5</path>
+    <path>paths\traffic1</path>
+    <path>paths\traffic2</path>
+    <path>paths\traffic3</path>
+    <path>paths\traffic4</path>
+  </paths>
   <scripts name="scripts">
     <scripts name="Dialogue">
       <script>scripts\scrText.gml</script>
@@ -72,7 +79,6 @@
     <object>objects\oBuilding</object>
     <object>objects\oRoad</object>
     <object>objects\oScript</object>
-    <object>objects\oNPC</object>
     <object>objects\oRoadvert</object>
     <object>objects\oIntersection</object>
     <object>objects\oDashboard</object>
@@ -84,6 +90,25 @@
     <object>objects\oDestination</object>
     <object>objects\oPerson</object>
     <object>objects\oWall</object>
+    <objects name="NPCars">
+      <object>objects\oNPCtarget1</object>
+      <object>objects\oNPCtarget2</object>
+      <object>objects\oNPCtarget3</object>
+      <object>objects\oNPCtarget4</object>
+      <object>objects\oNPCtarget5</object>
+      <object>objects\oNPCtarget6</object>
+      <object>objects\oNPCtarget7</object>
+      <object>objects\oNPCtarget8</object>
+      <object>objects\oNPC</object>
+      <object>objects\oNPC7</object>
+      <object>objects\oNPC8</object>
+      <object>objects\oNPC6</object>
+      <object>objects\oNPC1</object>
+      <object>objects\oNPC4</object>
+      <object>objects\oNPC5</object>
+      <object>objects\oNPC3</object>
+      <object>objects\oNPC2</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
