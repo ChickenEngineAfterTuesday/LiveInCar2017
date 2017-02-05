@@ -46,18 +46,17 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <scripts name="Dialogue">
-      <script>scripts\scrScript.gml</script>
       <script>scripts\scrText.gml</script>
     </scripts>
     <scripts name="quest">
       <script>scripts\dialogue.gml</script>
       <script>scripts\template.gml</script>
       <script>scripts\waitforgame.gml</script>
-      <script>scripts\waitforgame.gml</script>
       <script>scripts\spawnPerson.gml</script>
       <script>scripts\endquest.gml</script>
       <script>scripts\wait.gml</script>
       <script>scripts\waittohitperson.gml</script>
+      <script>scripts\spawnPersonClose.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">

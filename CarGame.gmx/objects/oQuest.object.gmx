@@ -67,6 +67,7 @@ thisStepScript = 0;
 text = "";
 time = 0;
 person = 0;
+dialogueBox = 0;
 </string>
           </argument>
         </arguments>

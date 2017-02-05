@@ -19,5 +19,5 @@ with (txt)
     //boxheight = text_height + (padding*2);
     boxwidth = 640;
     boxheight = 360;
-    
+    other.dialogueBox=id;
 }

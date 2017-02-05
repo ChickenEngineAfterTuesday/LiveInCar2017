@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>colonel[0] = "Psst. ALT. (or F to ignore Fun Dialogue)"
+            <string>/*colonel[0] = "Psst. ALT. (or F to ignore Fun Dialogue)"
 colonel[1] = "Ahem. I say, what do we have here?";
 colonel[2] = "You ain't gonna just leave your pal, are ya, chicky?";
 colonel[3] = "Ya can't abandon family. Kin gotta stay together.";
