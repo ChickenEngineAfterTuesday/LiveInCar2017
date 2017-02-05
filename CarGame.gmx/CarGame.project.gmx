@@ -27,6 +27,7 @@
     <sound>sound\speech</sound>
     <sound>sound\motor</sound>
     <sound>sound\sputter</sound>
+    <sound>sound\soundtrack</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
