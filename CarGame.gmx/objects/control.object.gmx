@@ -3,7 +3,7 @@
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-30</depth>
+  <depth>-10000</depth>
   <persistent>-1</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -110,6 +110,17 @@ if(timeRunning)
           <argument>
             <kind>1</kind>
             <string>//draw_sprite(sDash,0,0,(room_height*.8))
+if(instance_exists(oPlayer))
+{
+
+draw_set_font(fnt);
+draw_text(oPlayer.phy_position_x,oPlayer.phy_position_y,time);
+draw_text(oPlayer.phy_position_x+30,oPlayer.phy_position_y,oPlayer.cash);
+draw_text(oPlayer.phy_position_x+60,oPlayer.phy_position_y,oPlayer.fuel);
+draw_set_font(fConsolas);
+
+}
+
 
 </string>
           </argument>
