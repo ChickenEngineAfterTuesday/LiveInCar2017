@@ -89,6 +89,7 @@
   </scripts>
   <fonts name="fonts">
     <font>fonts\fConsolas</font>
+    <font>fonts\fConsolasCash</font>
     <font>fonts\fnt</font>
   </fonts>
   <objects name="objects">

@@ -49,6 +49,8 @@
             <kind>1</kind>
             <string>x = oHUD.x + 491;
 y = oHUD.y
+
+image_angle = 0 - 180*(oPlayer.fuel/100)
 </string>
           </argument>
         </arguments>

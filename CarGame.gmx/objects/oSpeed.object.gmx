@@ -49,6 +49,8 @@
             <kind>1</kind>
             <string>x = oHUD.x + 148;
 y = oHUD.y;
+
+image_angle = 0 - 180*((abs(oPlayer.phy_speed_x)+abs(oPlayer.phy_speed_y))/14)
 </string>
           </argument>
         </arguments>
