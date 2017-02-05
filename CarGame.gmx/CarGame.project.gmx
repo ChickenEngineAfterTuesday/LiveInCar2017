@@ -39,6 +39,7 @@
     <sprite>sprites\sPassenger</sprite>
     <sprite>sprites\sTestDestination</sprite>
     <sprite>sprites\sPerson</sprite>
+    <sprite>sprites\sTiredust</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -51,7 +52,7 @@
       <script>scripts\dialogue.gml</script>
       <script>scripts\template.gml</script>
       <script>scripts\waitforgame.gml</script>
-      <script>scripts\spawnPersonClose.gml</script>
+      <script>scripts\waitforgame.gml</script>
       <script>scripts\spawnPerson.gml</script>
       <script>scripts\endquest.gml</script>
       <script>scripts\wait.gml</script>
