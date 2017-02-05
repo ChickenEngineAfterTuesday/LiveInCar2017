@@ -65,6 +65,8 @@ thisStepScript = 0;
             <string>///variables for any interpretation
 //add along with each new script type
 text = "";
+time = 0;
+person = 0;
 </string>
           </argument>
         </arguments>

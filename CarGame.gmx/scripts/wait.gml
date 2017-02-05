@@ -3,15 +3,19 @@
 if(loadedScriptVariables)
 {
     //actual functionality
-    
+    if(time == 0){
     loadedScriptVariables = false;
-    stepCompleted=true;
+    stepCompleted=true;}
+    time--;
 }
 else
 {
     //assign variables contained in the quest object
     //required for this script
     
-    loadedScriptVariables = true;
+    ini_open(filename);
+    time = real(ini_read_string(string(currentStep),"time","0"));
+    ini_close();
     
+    loadedScriptVariables = true;
 }

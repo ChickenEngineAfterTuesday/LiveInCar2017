@@ -50,10 +50,12 @@
     <scripts name="quest">
       <script>scripts\dialogue.gml</script>
       <script>scripts\template.gml</script>
-      <script>scripts\stringHash.gml</script>
       <script>scripts\waitforgame.gml</script>
+      <script>scripts\spawnPersonClose.gml</script>
       <script>scripts\spawnPerson.gml</script>
       <script>scripts\endquest.gml</script>
+      <script>scripts\wait.gml</script>
+      <script>scripts\waittohitperson.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">

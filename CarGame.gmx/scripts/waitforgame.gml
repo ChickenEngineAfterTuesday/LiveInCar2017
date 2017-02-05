@@ -3,7 +3,7 @@
 if(loadedScriptVariables)
 {
     //actual functionality
-    if(room == room2){ stepCompleted=true;}
+    if(room == room2){ loadedScriptVariables = false; stepCompleted=true;}
     
 }
 else

@@ -3,10 +3,12 @@
 if(loadedScriptVariables)
 {
     //actual functionality
-    with(instance_create(x,y,oPerson))
+    with(instance_create(oPlayer.x,oPlayer.y,oPerson))
     {
-        //
+        depth = -4;
+        other.person = false;
     }
+    loadedScriptVariables = false;
     stepCompleted=true;
 }
 else
