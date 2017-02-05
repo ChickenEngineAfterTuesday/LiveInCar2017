@@ -143,6 +143,11 @@ if(keyboard_check(ord('W')) || joystick_check_button(1,4))
     forwardy = lengthdir_y(speedinc, -phy_rotation);
     
     physics_apply_force(x,y,forwardx,forwardy);
+    
+    if(!audio_is_playing(motor))
+    {
+        audio_play_sound(motor,5,0);
+    }
 }
 
 if(keyboard_check(ord('S')) || joystick_check_button(1,3))
@@ -151,6 +156,11 @@ if(keyboard_check(ord('S')) || joystick_check_button(1,3))
     forwardy = lengthdir_y(speedinc, -phy_rotation);
     
     physics_apply_force(x,y,-forwardx,-forwardy);
+    
+    if(!audio_is_playing(motor))
+    {
+        audio_play_sound(motor,5,0);
+    }
 }
 
 if(keyboard_check(ord('A')) || joystick_direction(id)=100)
