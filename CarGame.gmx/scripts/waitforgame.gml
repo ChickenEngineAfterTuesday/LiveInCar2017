@@ -10,7 +10,11 @@ if(loadedScriptVariables)
     
         if(irandom_range(1,100) < 20)
         {
-            instance_create(x+52,y+72,oNPC);
+            with(instance_create(x+52,y+72,oNPC))
+            {
+                direction = random(360);
+                speed = irandom_range(3,8);
+            }
         }
     
     }
