@@ -144,7 +144,7 @@ if(keyboard_check(ord('W')) || joystick_check_button(1,4))
     
     physics_apply_force(x,y,forwardx,forwardy);
     
-    if(!audio_is_playing(motor))
+    if(!audio_is_playing(motor)) &amp;&amp; (!audio_is_playing(speech))
     {
         audio_play_sound(motor,5,0);
     }

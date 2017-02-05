@@ -135,7 +135,11 @@ if (draw == true)
     {
         time += spd;
         print = string_copy(text,0,time)
-        audio_play_sound(speech,5,false);
+        if (audio_is_playing(motor))
+        {
+            audio_stop_sound(motor);
+        }
+        audio_play_sound(speech,10,false);
     }
 }
 </string>
