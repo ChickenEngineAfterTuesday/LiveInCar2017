@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>///Assign random path
 randomize();
-path = traffic1;
+path = traffic8;
 
 path_start(path,2 + random(0.5),1,1);
 </string>

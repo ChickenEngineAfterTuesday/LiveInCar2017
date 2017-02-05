@@ -50,6 +50,9 @@
     <path>paths\traffic2</path>
     <path>paths\traffic3</path>
     <path>paths\traffic4</path>
+    <path>paths\traffic6</path>
+    <path>paths\traffic7</path>
+    <path>paths\traffic8</path>
   </paths>
   <scripts name="scripts">
     <scripts name="Dialogue">
