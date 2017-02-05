@@ -29,11 +29,13 @@
 
 var forwardx, forwardy
 speedinc = 155;
-speedmultiplier = 2;
+speedmultiplier = 3;
 speedhowlong = 30;
 seconds = 10;
 speedtimer = seconds*room_speed;
 boost = false;
+boostx = 0;
+boosty = 0;
 
 /*
 maxSpeed = 40;
@@ -76,16 +78,16 @@ image_angle = direction;
 
 if(keyboard_check(ord('W')) || joystick_check_button(1,4))
 {
-    forwardx = lengthdir_x(speedinc+(speedinc*boost*speedmultiplier), -phy_rotation);
-    forwardy = lengthdir_y(speedinc+(speedinc*boost*speedmultiplier), -phy_rotation);
+    forwardx = lengthdir_x(speedinc, -phy_rotation);
+    forwardy = lengthdir_y(speedinc, -phy_rotation);
     
     physics_apply_force(x,y,forwardx,forwardy);
 }
 
 if(keyboard_check(ord('S')) || joystick_check_button(1,3))
 {
-    forwardx = lengthdir_x(speedinc+(speedinc*boost*speedmultiplier), -phy_rotation);
-    forwardy = lengthdir_y(speedinc+(speedinc*boost*speedmultiplier), -phy_rotation);
+    forwardx = lengthdir_x(speedinc, -phy_rotation);
+    forwardy = lengthdir_y(speedinc, -phy_rotation);
     
     physics_apply_force(x,y,-forwardx,-forwardy);
 }
@@ -134,6 +136,14 @@ if(speedtimer == 0)
 {
     speedtimer = seconds*room_speed
     speedhowlong = 30;
+}
+
+if(boost)
+{
+
+      boostx = lengthdir_x(speedinc*speedmultiplier, -phy_rotation);
+      boosty = lengthdir_y(speedinc*speedmultiplier, -phy_rotation);
+      physics_apply_force(x,y,boostx,boosty);
 }
 </string>
           </argument>

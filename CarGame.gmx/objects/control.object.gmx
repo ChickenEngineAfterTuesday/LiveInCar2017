@@ -102,6 +102,7 @@ if(transitionTo)
           <argument>
             <kind>1</kind>
             <string>//draw_sprite(sDash,0,0,(room_height*.8))
+
 </string>
           </argument>
         </arguments>
