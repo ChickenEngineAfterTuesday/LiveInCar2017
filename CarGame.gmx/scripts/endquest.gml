@@ -4,7 +4,7 @@ if(loadedScriptVariables)
 {
     //actual functionality
     control.timeRunning = false;
-    show_message("quest ended, time: " + string(control.time/room_speed));
+    //show_message("quest ended, time: " + string(control.time/room_speed));
     instance_destroy();
     stepCompleted=true;
 }
