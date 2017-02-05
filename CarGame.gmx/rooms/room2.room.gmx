@@ -285,15 +285,15 @@
     <instance objName="oBuilding" x="5376" y="2432" name="inst_FF05A69C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5568" y="2432" name="inst_D10DFCF8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5760" y="2432" name="inst_850B7C6A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5376" y="2112" name="inst_DAD4CCB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5568" y="2112" name="inst_F48A741A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5760" y="2112" name="inst_EB0DDC2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5376" y="1920" name="inst_5FBF78F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5568" y="1920" name="inst_F38D9466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5760" y="1920" name="inst_A1F665BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5376" y="1792" name="inst_AC3B66DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5568" y="1792" name="inst_6A018E8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5760" y="1792" name="inst_72923C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="2176" name="inst_DAD4CCB0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="2176" name="inst_F48A741A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="2176" name="inst_EB0DDC2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="2048" name="inst_5FBF78F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="2048" name="inst_F38D9466" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="2048" name="inst_A1F665BC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="1920" name="inst_AC3B66DA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="1920" name="inst_6A018E8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="1920" name="inst_72923C2A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4992" y="2688" name="inst_D5E8461D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4800" y="2688" name="inst_A06AD4AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4608" y="2688" name="inst_1EE710B2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -312,9 +312,9 @@
     <instance objName="oBuilding" x="4608" y="1664" name="inst_321847E8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4800" y="1664" name="inst_9D65FFD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4992" y="1664" name="inst_FECE7B77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5376" y="1664" name="inst_CC9F5C8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5568" y="1664" name="inst_D66FF544" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5760" y="1664" name="inst_8014C8D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="1792" name="inst_CC9F5C8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="1792" name="inst_D66FF544" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="1792" name="inst_8014C8D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5376" y="1152" name="inst_8B1D899A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5568" y="1152" name="inst_7E377323" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5760" y="1024" name="inst_69F9632D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1345,9 +1345,9 @@
     <instance objName="oBuilding" x="0" y="1536" name="inst_F66A279E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="192" y="1536" name="inst_5E2AF5DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="384" y="1536" name="inst_22F04D78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5760" y="1536" name="inst_38BBF538" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5568" y="1536" name="inst_AD9109C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="5376" y="1536" name="inst_10DC5664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="1664" name="inst_38BBF538" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="1664" name="inst_AD9109C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="1664" name="inst_10DC5664" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4992" y="1536" name="inst_201EB793" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4800" y="1536" name="inst_5518EF28" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4608" y="1536" name="inst_C4D168E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1421,6 +1421,9 @@
     <instance objName="oBuilding" x="0" y="3072" name="inst_61DEEC12" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="192" y="3072" name="inst_C280A85A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="384" y="3072" name="inst_1D4E672E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5376" y="1536" name="inst_176772A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5568" y="1536" name="inst_B2E55E2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oBuilding" x="5760" y="1536" name="inst_CAB39C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
