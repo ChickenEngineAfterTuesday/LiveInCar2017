@@ -150,6 +150,7 @@
     <object>objects\oHUD</object>
     <object>objects\oSpeed</object>
     <object>objects\oFuel</object>
+    <object>objects\object48</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
