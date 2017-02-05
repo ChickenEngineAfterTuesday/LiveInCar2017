@@ -55,6 +55,8 @@
     <sprite>sprites\sRoundaboutDL</sprite>
     <sprite>sprites\sBuilding4</sprite>
     <sprite>sprites\sBarricade</sprite>
+    <sprite>sprites\sHUD</sprite>
+    <sprite>sprites\sPointer</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -137,6 +139,9 @@
     <object>objects\oRoundaboutUL</object>
     <object>objects\oRoundaboutDL</object>
     <object>objects\oBarricade</object>
+    <object>objects\oHUD</object>
+    <object>objects\oSpeed</object>
+    <object>objects\oFuel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
