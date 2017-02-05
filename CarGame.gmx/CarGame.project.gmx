@@ -50,7 +50,9 @@
     <sprite>sprites\sGasStation</sprite>
     <sprite>sprites\sSandwichShop</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bGrass</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\traffic5</path>
     <path>paths\traffic1</path>

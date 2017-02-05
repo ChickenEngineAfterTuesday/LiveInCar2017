@@ -82,13 +82,13 @@ if (my_target != -1)
           <argument>
             <kind>1</kind>
             <string>draw_self();
-
+/*
 if(view_visible[1] == true)
 {
     draw_set_color(c_yellow);
     draw_circle(oNPC1.phy_position_x,oNPC1.phy_position_y,100,1);
     draw_set_color(c_white);
-}
+}*/
 </string>
           </argument>
         </arguments>
