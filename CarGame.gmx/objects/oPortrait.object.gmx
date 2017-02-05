@@ -51,7 +51,9 @@
             <string>///Display portrait
 if(instance_exists(oQuest))
 {
- draw_sprite(oQuest.portrait,-1,60,296);
+        //draw_rectangle_color(0,288,640,360,c_black,c_white,c_black,c_white,false);
+        draw_sprite(oQuest.portrait,-1,60,296);
+    
 }
 
 </string>
