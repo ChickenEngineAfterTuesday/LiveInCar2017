@@ -29,6 +29,8 @@
     <sprite>sprites\sDash</sprite>
     <sprite>sprites\sTemptext</sprite>
     <sprite>sprites\sRoad</sprite>
+    <sprite>sprites\sBuilding3</sprite>
+    <sprite>sprites\sBuilding2</sprite>
     <sprite>sprites\sBuilding</sprite>
     <sprite>sprites\sCarBlue</sprite>
     <sprite>sprites\sCarPink</sprite>
@@ -36,6 +38,7 @@
     <sprite>sprites\sRoadvert</sprite>
     <sprite>sprites\sDashboard</sprite>
     <sprite>sprites\sSamplePortrait</sprite>
+    <sprite>sprites\sPortrait1</sprite>
     <sprite>sprites\sPassenger</sprite>
     <sprite>sprites\sTestDestination</sprite>
     <sprite>sprites\sPerson</sprite>
@@ -44,6 +47,8 @@
     <sprite>sprites\sNPCtarget</sprite>
     <sprite>sprites\sPedestrian1</sprite>
     <sprite>sprites\sPedestrian2</sprite>
+    <sprite>sprites\sGasStation</sprite>
+    <sprite>sprites\sSandwichShop</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
@@ -83,6 +88,8 @@
     <object>objects\oCamera</object>
     <object>objects\oText</object>
     <object>objects\oBuilding</object>
+    <object>objects\oGasStation</object>
+    <object>objects\oSandwichShop</object>
     <object>objects\oRoad</object>
     <object>objects\oScript</object>
     <object>objects\oRoadvert</object>
@@ -116,6 +123,7 @@
       <object>objects\oNPC2</object>
     </objects>
     <object>objects\oPoint</object>
+    <object>objects\oBarrel</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>

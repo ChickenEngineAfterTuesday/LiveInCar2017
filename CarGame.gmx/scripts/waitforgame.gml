@@ -4,6 +4,12 @@ if(loadedScriptVariables)
 {
     //actual functionality
     if(room == room2){ 
+    
+    with(oBuilding)
+    {
+        sprite_index = choose(sBuilding, sBuilding2, sBuilding3);
+    }
+    
     loadedScriptVariables = false; stepCompleted=true;
     
     }

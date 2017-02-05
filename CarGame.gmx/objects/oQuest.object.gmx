@@ -71,6 +71,7 @@ dialogueBox = 0;
 point = 0;
 xxpt = 0;
 yypt = 0;
+portrait = sSamplePortrait;
 </string>
           </argument>
         </arguments>

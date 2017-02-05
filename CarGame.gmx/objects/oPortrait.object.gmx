@@ -49,7 +49,11 @@
           <argument>
             <kind>1</kind>
             <string>///Display portrait
-draw_sprite(sSamplePortrait,-1,60,296);
+if(instance_exists(oQuest))
+{
+ draw_sprite(oQuest.portrait,-1,60,296);
+}
+
 </string>
           </argument>
         </arguments>

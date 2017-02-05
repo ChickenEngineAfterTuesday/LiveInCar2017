@@ -31,6 +31,7 @@ else
     //required for this script
     ini_open(filename);
     text = ini_read_string(string(currentStep),"text","MISSING");
+    portrait = asset_get_index(ini_read_string(string(currentStep),"portrait","MISSING"));
     ini_close();
     loadedScriptVariables = true;
     
