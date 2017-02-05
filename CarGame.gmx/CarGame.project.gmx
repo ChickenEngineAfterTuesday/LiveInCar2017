@@ -54,6 +54,7 @@
     <sprite>sprites\sRoundaboutUL</sprite>
     <sprite>sprites\sRoundaboutDL</sprite>
     <sprite>sprites\sBuilding4</sprite>
+    <sprite>sprites\sBarricade</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -135,6 +136,7 @@
     <object>objects\oOutsidecorner</object>
     <object>objects\oRoundaboutUL</object>
     <object>objects\oRoundaboutDL</object>
+    <object>objects\oBarricade</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
