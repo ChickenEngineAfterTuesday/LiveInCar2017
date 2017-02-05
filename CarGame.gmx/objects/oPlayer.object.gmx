@@ -31,7 +31,7 @@ var forwardx, forwardy
 speedinc = 155;
 speedmultiplier = 2;
 speedhowlong = 30;
-seconds = 10
+seconds = 10;
 speedtimer = seconds*room_speed;
 boost = false;
 
@@ -133,6 +133,7 @@ if(keyboard_check_pressed(ord('Q')) || joystick_check_button(1,8))
 if(speedtimer == 0)
 {
     speedtimer = seconds*room_speed
+    speedhowlong = 30;
 }
 </string>
           </argument>
@@ -289,6 +290,7 @@ if(view_visible[1] == true)
 }
 
 draw_text(x,y,speedhowlong);//
+draw_text(x+30,y,speedtimer);
 </string>
           </argument>
         </arguments>
