@@ -50,8 +50,6 @@ my_target = -1;
           <argument>
             <kind>1</kind>
             <string>image_angle = direction;
-phy_speed_x = 5;
-phy_speed_y = 5;
 </string>
           </argument>
         </arguments>

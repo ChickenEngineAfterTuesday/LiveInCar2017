@@ -29,7 +29,7 @@
 randomize();
 path = traffic7;
 
-path_start(path,2 + random(0.5),1,1);
+path_start(path,5 + random(0.5),1,1);
 </string>
           </argument>
         </arguments>
