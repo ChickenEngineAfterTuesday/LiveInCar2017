@@ -42,6 +42,8 @@
     <sprite>sprites\sTiredust</sprite>
     <sprite>sprites\sprite14</sprite>
     <sprite>sprites\sNPCtarget</sprite>
+    <sprite>sprites\sPedestrian1</sprite>
+    <sprite>sprites\sPedestrian2</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths">
