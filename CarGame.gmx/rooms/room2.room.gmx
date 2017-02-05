@@ -1258,6 +1258,11 @@
     <instance objName="oBuilding" x="3648" y="-192" name="inst_B74FE5FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="2688" y="-192" name="inst_B358DD0B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="1344" y="-192" name="inst_AE78916C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNPCtarget1" x="864" y="1376" name="inst_7477E9FA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNPCtarget1" x="288" y="1408" name="inst_917218EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNPCtarget1" x="3328" y="2176" name="inst_EC39A67C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNPCtarget1" x="3968" y="2208" name="inst_BF7BCC38" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oNPCtarget1" x="2944" y="2624" name="inst_8D2C68D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
