@@ -3,7 +3,8 @@
 if(loadedScriptVariables)
 {
     //actual functionality
-    show_message("quest ended");
+    control.timeRunning = false;
+    show_message("quest ended, time: " + string(control.time/room_speed));
     instance_destroy();
     stepCompleted=true;
 }

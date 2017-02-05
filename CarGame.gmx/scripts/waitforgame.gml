@@ -10,6 +10,8 @@ if(loadedScriptVariables)
         sprite_index = choose(sBuilding, sBuilding2, sBuilding3, sBuilding4);
     }
     
+    control.timeRunning = true;
+    
     loadedScriptVariables = false; stepCompleted=true;
     
     }
