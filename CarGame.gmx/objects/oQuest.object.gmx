@@ -68,6 +68,9 @@ text = "";
 time = 0;
 person = 0;
 dialogueBox = 0;
+point = 0;
+xxpt = 0;
+yypt = 0;
 </string>
           </argument>
         </arguments>

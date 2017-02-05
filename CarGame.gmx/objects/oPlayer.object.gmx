@@ -96,6 +96,21 @@ if(keyboard_check(ord('D')) || joystick_direction(id)=102)
     
 }
 
+if(keyboard_check_pressed(ord('X')) || joystick_check_button(1,1))
+{
+    if(view_visible[0] == true)
+    {
+        view_visible[0] = false;
+        view_visible[1] = true;
+    }
+    else
+    {
+        view_visible[1] = false;
+        view_visible[0] = true;
+    }
+    
+}
+
 </string>
           </argument>
         </arguments>
@@ -168,7 +183,14 @@ if(keyboard_check(ord('D')) || joystick_direction(id)=102)
 //draw_text(x + 100,y, string(speed));
 //draw_text(x + 150,y, string(speed/maxSpeed));
 //draw_text(x + 150,y+50, string(speed));
-draw_line(x,y,x+lengthdir_x(speed*10,direction),y+lengthdir_y(speed*10,direction));
+//draw_line(x,y,x+lengthdir_x(speed*10,direction),y+lengthdir_y(speed*10,direction));
+
+if(view_visible[1] == true)
+{
+    draw_set_color(c_yellow);
+    draw_circle(oPlayer.phy_position_x,oPlayer.phy_position_y,100,1);
+    draw_set_color(c_white);
+}
 </string>
           </argument>
         </arguments>

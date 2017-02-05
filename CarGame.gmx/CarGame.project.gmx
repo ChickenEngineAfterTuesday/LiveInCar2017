@@ -67,6 +67,7 @@
       <script>scripts\wait.gml</script>
       <script>scripts\waittohitperson.gml</script>
       <script>scripts\spawnPersonClose.gml</script>
+      <script>scripts\waitOnPoint.gml</script>
     </scripts>
   </scripts>
   <fonts name="fonts">
@@ -112,6 +113,7 @@
       <object>objects\oNPC3</object>
       <object>objects\oNPC2</object>
     </objects>
+    <object>objects\oPoint</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
