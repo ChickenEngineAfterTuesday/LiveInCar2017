@@ -36,6 +36,9 @@ speedtimer = seconds*room_speed;
 boost = false;
 boostx = 0;
 boosty = 0;
+fuel = 100;
+cash = 35;
+
 
 /*
 maxSpeed = 40;
