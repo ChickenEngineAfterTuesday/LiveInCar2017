@@ -63,6 +63,7 @@
     <sprite>sprites\sHUD</sprite>
     <sprite>sprites\sPointer</sprite>
     <sprite>sprites\sLogo</sprite>
+    <sprite>sprites\sBarrel</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
