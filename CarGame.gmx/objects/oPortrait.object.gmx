@@ -3,7 +3,7 @@
   <spriteName>sSamplePortrait</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1001</depth>
+  <depth>-10001</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -48,8 +48,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = view_xview[0] + 32;
-y = view_yview[0] + view_hview[0];
+            <string>x = view_xview[0] + 96;
+y = view_yview[0] + view_hview[0] + 3;
+
+if(instance_exists(oQuest))
+{
+    sprite_index = oQuest.portrait;
+}
 </string>
           </argument>
         </arguments>

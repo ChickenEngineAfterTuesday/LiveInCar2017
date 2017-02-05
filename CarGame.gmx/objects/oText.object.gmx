@@ -110,27 +110,32 @@ if (draw == true)
           <argument>
             <kind>1</kind>
             <string>///Render textbox &amp; text
-if (draw == true)
+
+if(view_visible[0])
 {
-    draw_set_alpha(alpha);
-    if (alpha &lt; 1) 
-        alpha += spd/10;
-    else alpha = 1;
     
-    draw_set_font(font);
-    draw_set_color(c_black);
-    draw_set_halign(fa_left);
-    draw_set_valign(fa_top);
-    draw_text_ext
-    (
-        x + 132,
-        y + padding,
-        print,
-        font_size+(font_size/2),
-        maxlength
-    );
-    
-    draw_set_alpha(1);
+    if (draw == true)
+    {
+        draw_set_alpha(alpha);
+        if (alpha &lt; 1) 
+            alpha += spd/10;
+        else alpha = 1;
+        
+        draw_set_font(font);
+        draw_set_color(c_black);
+        draw_set_halign(fa_left);
+        draw_set_valign(fa_top);
+        draw_text_ext
+        (
+            x + 330 , //132
+            y + 360, //padding
+            print,
+            font_size+(font_size/2),
+            maxlength
+        );
+        
+        draw_set_alpha(1);
+    }
 }
 </string>
           </argument>
