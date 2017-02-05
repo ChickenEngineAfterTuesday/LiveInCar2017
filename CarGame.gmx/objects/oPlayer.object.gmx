@@ -27,6 +27,21 @@
             <kind>1</kind>
             <string>///Variables
 
+angle_dif = 0;
+
+//Particle system
+psys = part_system_create();
+part_system_automatic_draw(psys, false);
+part_system_position(psys,0,0);
+
+emm = part_emitter_create(psys);
+
+//Tire particle
+tyre_part = part_type_create();
+part_type_sprite(tyre_part,sTiredust,false,false,false);
+part_type_life(tyre_part, 10, 30);
+part_type_alpha2(tyre_part,0.025,0);
+
 var forwardx, forwardy
 speedinc = 155;
 speedmultiplier = 3;
@@ -78,6 +93,22 @@ var dirToObj;
             <kind>1</kind>
             <string>///Controls
 image_angle = direction;
+
+//Particle systems
+if(phy_speed &gt; 1)
+{
+    part_emitter_region(psys, emm, x - 1, x + 1, y - 1, y + 1, ps_shape_rectangle, ps_distr_gaussian);
+    inertia_dir = point_direction(x, y, x + phy_speed_x, y + phy_speed_y);
+    forward_dir = point_direction(x, y, x + lengthdir_x(50,-phy_rotation), y + lengthdir_y(50, -phy_rotation));
+
+    angle_dif = abs(angle_difference(forward_dir, inertia_dir));
+    if (angle_dif &gt; 20)
+    { //render tires on floor
+        part_type_orientation(tyre_part, -phy_rotation, phy_rotation, 0, 0, 0);
+        part_emitter_burst(psys, emm, tyre_part, 20);
+    }
+}
+
 
 if(keyboard_check(ord('W')) || joystick_check_button(1,4))
 {
@@ -265,8 +296,11 @@ physics_apply_impulse(other.x,other.y,400,400);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_self();
+            <string>part_system_drawit(psys);
 
+draw_self();
+
+//draw_text(x-20, y-20, string(angle_dif));
 </string>
           </argument>
         </arguments>
@@ -302,8 +336,8 @@ if(view_visible[1] == true)
     draw_set_color(c_white);
 }
 
-draw_text(x,y,speedhowlong);//
-draw_text(x+30,y,speedtimer);
+/*draw_text(x,y,speedhowlong);//
+draw_text(x+30,y,speedtimer);*/
 </string>
           </argument>
         </arguments>

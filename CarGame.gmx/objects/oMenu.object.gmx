@@ -73,7 +73,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(room_width/2,room_height/2,"space to play");
+            <string>draw_text(room_width/2,room_height/2,"live in your car");
 </string>
           </argument>
         </arguments>
