@@ -3,6 +3,7 @@
 if(loadedScriptVariables)
 {
     //actual functionality
+    show_message("quest ended");
     instance_destroy();
     stepCompleted=true;
 }
