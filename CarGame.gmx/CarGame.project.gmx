@@ -53,6 +53,7 @@
     <sprite>sprites\sInsidecorner</sprite>
     <sprite>sprites\sRoundaboutUL</sprite>
     <sprite>sprites\sRoundaboutDL</sprite>
+    <sprite>sprites\sBuilding4</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
