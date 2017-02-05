@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = choose(sPedestrian1);
+            <string>depth = -y -1;
+sprite_index = choose(sPedestrian1);
 timer = 30;
 </string>
           </argument>

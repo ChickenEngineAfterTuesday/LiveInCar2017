@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>secondCircleR = 50;
+            <string>depth = -y -1;
+secondCircleR = 50;
 </string>
           </argument>
         </arguments>

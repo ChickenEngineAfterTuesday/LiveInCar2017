@@ -52,7 +52,7 @@ boost = false;
 boostx = 0;
 boosty = 0;
 fuel = 100;
-cash = 70;
+cash = 35;
 
 fueltimer = 15;
 alarm[0] = room_speed * fueltimer;
