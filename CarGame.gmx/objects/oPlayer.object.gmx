@@ -52,10 +52,11 @@ boost = false;
 boostx = 0;
 boosty = 0;
 fuel = 100;
-cash = 35;
+cash = 70;
 
 fueltimer = 15;
 alarm[0] = room_speed * fueltimer;
+canBuyGas = true;
 
 
 /*
@@ -72,6 +73,30 @@ drift = false;
 spinTimer = 0;
 spinoutDirection = 0;
 var dirToObj;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="1">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>canBuyGas = true;
+
 </string>
           </argument>
         </arguments>
@@ -294,10 +319,14 @@ physics_apply_impulse(other.x,other.y,400,400);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(cash-35 &gt;= 0)
+            <string>if(cash-35 &gt;= 0 &amp;&amp; canBuyGas)
 {
     cash -= 35;
     fuel = 100;
+    canBuyGas = false;
+    alarm[1] = 30;
+    alarm[0] = room_speed * fueltimer;
+    
     
 }
 else
