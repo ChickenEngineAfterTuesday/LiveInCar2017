@@ -104,9 +104,9 @@
     <object>objects\oDashboard</object>
     <object>objects\oPortrait</object>
     <object>objects\oPassenger</object>
+    <object>objects\oQuest</object>
     <object>objects\oSpawner</object>
     <object>objects\oMenu</object>
-    <object>objects\oQuest</object>
     <object>objects\oDestination</object>
     <object>objects\oPerson</object>
     <object>objects\oWall</object>

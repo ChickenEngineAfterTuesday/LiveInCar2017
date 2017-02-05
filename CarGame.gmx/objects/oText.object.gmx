@@ -153,7 +153,7 @@ if(view_visible[0])
         draw_text_ext
         (
             x + 330 , //132
-            y + 360, //padding
+            y + 355, //padding
             print,
             font_size+(font_size/2),
             maxlength
