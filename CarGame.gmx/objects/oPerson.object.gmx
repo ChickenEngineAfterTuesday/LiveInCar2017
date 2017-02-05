@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sprite_index = choose(sPedestrian1, sPedestrian2);
+            <string>sprite_index = choose(sPedestrian1);
 timer = 30;
 </string>
           </argument>

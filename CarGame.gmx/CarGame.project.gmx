@@ -23,7 +23,10 @@
     </datafile>
   </datafiles>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\speech</sound>
+    <sound>sound\motor</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sPlayer</sprite>
     <sprite>sprites\sDash</sprite>
