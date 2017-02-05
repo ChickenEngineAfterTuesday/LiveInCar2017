@@ -333,7 +333,6 @@
     <instance objName="oBuilding" x="5760" y="0" name="inst_D8ABA6F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5568" y="128" name="inst_B09690A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5760" y="128" name="inst_F991B4DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="oBuilding" x="4224" y="2688" name="inst_99A8E6F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="4032" y="2688" name="inst_4C4920DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="3840" y="2688" name="inst_EFA4FD2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="3840" y="2560" name="inst_C3B6B201" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -1424,6 +1423,7 @@
     <instance objName="oBuilding" x="5376" y="1536" name="inst_176772A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5568" y="1536" name="inst_B2E55E2B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="oBuilding" x="5760" y="1536" name="inst_CAB39C71" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="oGasStation" x="4224" y="2688" name="inst_3FB79374" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

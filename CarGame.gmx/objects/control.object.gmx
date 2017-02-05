@@ -33,6 +33,9 @@ lastRoom = 0;
 
 transitionTo = 0;
 
+time = 0;
+timeRunning = false;
+
 quests = 0;
 
 with(instance_create(x,y,oQuest))
@@ -78,6 +81,11 @@ if(transitionTo)
 {
     room_goto(transitionTo);
     transitionTo = 0;
+}
+
+if(timeRunning)
+{
+    time++;
 }
 </string>
           </argument>

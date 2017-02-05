@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>if(point_distance(x,y,oPlayer.phy_position_x,oPlayer.phy_position_y) &lt; 50)
 {
+    oPlayer.cash += 35;
     instance_destroy();
 }
 </string>
