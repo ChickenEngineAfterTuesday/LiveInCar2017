@@ -51,7 +51,8 @@
     <sprite>sprites\sSandwichShop</sprite>
     <sprite>sprites\sOutsidecorner</sprite>
     <sprite>sprites\sInsidecorner</sprite>
-    <sprite>sprites\sRoundabout</sprite>
+    <sprite>sprites\sRoundaboutUL</sprite>
+    <sprite>sprites\sRoundaboutDL</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -131,7 +132,8 @@
     <object>objects\oBarrel</object>
     <object>objects\oInsidecorner</object>
     <object>objects\oOutsidecorner</object>
-    <object>objects\oRoundabout</object>
+    <object>objects\oRoundaboutUL</object>
+    <object>objects\oRoundaboutDL</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>

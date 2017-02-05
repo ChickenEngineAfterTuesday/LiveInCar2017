@@ -20,6 +20,6 @@
   <width>96</width>
   <height>96</height>
   <frames>
-    <frame index="0">images\sRoundaboutUL_0.png</frame>
+    <frame index="0">images\sRoundaboutDL_0.png</frame>
   </frames>
 </sprite>
