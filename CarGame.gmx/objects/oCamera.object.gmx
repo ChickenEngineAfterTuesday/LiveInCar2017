@@ -86,10 +86,10 @@ else if(oPlayer.speed &lt; 0)
 }
 
  */
- 
+ /*
 if(oPlayer.speed &gt; 0)
 {
-    x = oPlayer.x + lengthdir_x(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
+    x = oPlayer.phy_position_x + lengthdir_x(128*(2*abs(oPlayer.phy_speed/oPlayer.maxSpeed)),oPlayer.direction);
     if(oPlayer.direction &lt; 360 &amp;&amp; oPlayer.direction &gt; 180)
     {
         y = oPlayer.y + lengthdir_y(16*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
@@ -111,6 +111,10 @@ else if(oPlayer.speed &lt; 0)
         y = oPlayer.y - lengthdir_y(128*(2*abs(oPlayer.speed/oPlayer.maxSpeed)),oPlayer.direction);
     }
 }
+*/
+x = oPlayer.phy_position_x;
+y = oPlayer.phy_position_y;
+
 
 viewx = ((x-view_wview[0]/2)*(viewdist-1)+((x+lengthdir_x(64,oPlayer.direction))-view_wview[0]/2))/viewdist;
 viewy = ((y-view_hview[0]/2)*(viewdist-1)+((y+lengthdir_y(64,oPlayer.direction))-view_hview[0]/2))/viewdist;

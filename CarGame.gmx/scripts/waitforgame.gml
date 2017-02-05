@@ -13,7 +13,8 @@ if(loadedScriptVariables)
             with(instance_create(x+52,y+72,oNPC))
             {
                 direction = random(360);
-                speed = irandom_range(3,8);
+                vspeed = irandom_range(3,8);
+                hspeed = irandom_range(3,8);
             }
         }
     
