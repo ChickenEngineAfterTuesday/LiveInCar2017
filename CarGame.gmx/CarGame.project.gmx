@@ -49,6 +49,9 @@
     <sprite>sprites\sPedestrian2</sprite>
     <sprite>sprites\sGasStation</sprite>
     <sprite>sprites\sSandwichShop</sprite>
+    <sprite>sprites\sOutsidecorner</sprite>
+    <sprite>sprites\sInsidecorner</sprite>
+    <sprite>sprites\sRoundabout</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -126,6 +129,9 @@
     </objects>
     <object>objects\oPoint</object>
     <object>objects\oBarrel</object>
+    <object>objects\oInsidecorner</object>
+    <object>objects\oOutsidecorner</object>
+    <object>objects\oRoundabout</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
