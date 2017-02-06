@@ -3,7 +3,7 @@
   <spriteName>sPerson</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -25,7 +25,9 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>depth = -y -1;
+            <string>secondCircleG = 50;
+depth = -y -1;
+
 sprite_index = choose(sPedestrian1);
 timer = 30;
 </string>
@@ -103,9 +105,21 @@ image_xscale*=-1
           <argument>
             <kind>1</kind>
             <string>draw_self();
-draw_set_color(c_lime);
+/*draw_set_color(c_lime);
 draw_circle(x,y,70,1);
+draw_set_color(c_white);*/
+
+draw_set_color(c_lime);
+draw_circle(x,y,50,1);
+draw_circle(x,y,secondCircleG,1);
 draw_set_color(c_white);
+
+secondCircleG++;
+
+if(secondCircleG &gt; 100)
+{
+    secondCircleG = 50;
+}
 </string>
           </argument>
         </arguments>

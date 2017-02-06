@@ -161,8 +161,8 @@ if(phy_speed &gt; 1)
     }
 }
 
-
-if(keyboard_check(ord('W')) || joystick_check_button(1,4))
+//Controls
+if(keyboard_check(vk_up) || joystick_check_button(1,4)) //Acceleration is Y on controller or Up Arrow on keyboard
 {
     forwardx = lengthdir_x(speedinc, -phy_rotation);
     forwardy = lengthdir_y(speedinc, -phy_rotation);
@@ -175,7 +175,7 @@ if(keyboard_check(ord('W')) || joystick_check_button(1,4))
     }
 }
 
-if(keyboard_check(ord('S')) || joystick_check_button(1,3))
+if(keyboard_check(vk_down) || joystick_check_button(1,3)) //Deceleration is B on controller or Down Arrow on keyboard
 {
     forwardx = lengthdir_x(speedinc, -phy_rotation);
     forwardy = lengthdir_y(speedinc, -phy_rotation);
@@ -188,19 +188,19 @@ if(keyboard_check(ord('S')) || joystick_check_button(1,3))
     }
 }
 
-if(keyboard_check(ord('A')) || joystick_direction(id)=100)
+if(keyboard_check(vk_left) || joystick_direction(id)=100) //Left turn is &lt;- on controller or Left Arrow on keyboard
 {
     
     phy_rotation -= 2.7
 }
 
-if(keyboard_check(ord('D')) || joystick_direction(id)=102)
+if(keyboard_check(vk_right) || joystick_direction(id)=102) //Right turn is -&gt; on controller or Right Arrow on keyboard
 {
     phy_rotation += 2.7;
     
 }
 
-if(keyboard_check_pressed(ord('X')) || joystick_check_button(1,1))
+if(keyboard_check(vk_alt) || joystick_check_button(1,7)) //Map is L on controller or Space on keyboard
 {
     /*if(view_visible[0] = true)
     {
@@ -227,7 +227,7 @@ else
 boost = false;
 speedtimer--;
 
-if(keyboard_check_pressed(ord('Q')) || joystick_check_button(1,8))
+if(keyboard_check_direct(vk_space) || joystick_check_button(1,8)) //Boost is R on controller or Shift on keyboard
 {
     if(speedhowlong &gt; 0)
     {
@@ -319,9 +319,9 @@ physics_apply_impulse(other.x,other.y,400,400);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(cash-35 &gt;= 0 &amp;&amp; canBuyGas)
+            <string>if(cash-25 &gt;= 0 &amp;&amp; canBuyGas)
 {
-    cash -= 35;
+    cash -= 25;
     fuel = 100;
     canBuyGas = false;
     alarm[1] = 30;
