@@ -58,7 +58,7 @@ y = oDashboard.y
             draw_set_color(c_red);
             draw_text(x,y,oPlayer.cash);
             //draw_line(148,360,148+lengthdir_x(36,90),360+lengthdir_y(36,90)); // speed
-            draw_sprite_ext(sPointer,0,view_xview[0]+148,view_yview[0],1,1,0,c_white,1)
+            //draw_sprite_ext(sPointer,0,view_xview[0]+148,view_yview[0],1,1,0,c_white,1)
             //draw_line(491,360,lengthdir_x(36,90),lengthdir_y(36,90)) // fuel
             draw_set_color(c_white);
             draw_self();           
