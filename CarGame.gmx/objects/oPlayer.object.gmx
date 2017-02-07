@@ -42,6 +42,12 @@ part_type_sprite(tyre_part,sTiredust,false,false,false);
 part_type_life(tyre_part, 10, 30);
 part_type_alpha2(tyre_part,0.025,0);
 
+//Fire particle
+fyre_part = part_type_create();
+part_type_sprite(fyre_part,sFiredust,false,false,false);
+part_type_life(fyre_part,10,30);
+part_type_alpha2(fyre_part,0.2,0);
+
 var forwardx, forwardy
 speedinc = 155;
 speedmultiplier = 3;
@@ -260,6 +266,9 @@ if(boost)
       boostx = lengthdir_x(speedinc*speedmultiplier, -phy_rotation);
       boosty = lengthdir_y(speedinc*speedmultiplier, -phy_rotation);
       physics_apply_force(x,y,boostx,boosty);
+      part_emitter_region(psys, emm, x - 10, x + 10, y - 10, y + 10, ps_shape_ellipse, ps_distr_linear);
+      part_type_orientation(fyre_part, -phy_rotation, phy_rotation, 0, 0, 0);
+      part_emitter_burst(psys, emm, fyre_part, 40);
 }
 </string>
           </argument>
@@ -389,7 +398,9 @@ else
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>part_system_drawit(psys);
+            <string>///Particles
+
+part_system_drawit(psys);
 
 draw_self();
 

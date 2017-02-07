@@ -48,6 +48,7 @@
     <sprite>sprites\sTestDestination</sprite>
     <sprite>sprites\sPerson</sprite>
     <sprite>sprites\sTiredust</sprite>
+    <sprite>sprites\sFiredust</sprite>
     <sprite>sprites\sprite14</sprite>
     <sprite>sprites\sNPCtarget</sprite>
     <sprite>sprites\sPedestrian1</sprite>
