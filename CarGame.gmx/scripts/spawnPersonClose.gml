@@ -7,7 +7,7 @@ if(loadedScriptVariables)
         with(instance_create(instance_nearest(oPlayer.x+lengthdir_x(500,oPlayer.direction),oPlayer.y+lengthdir_y(500,oPlayer.direction),oRoad).x+16,instance_nearest(oPlayer.x+lengthdir_x(500,oPlayer.direction),oPlayer.y+lengthdir_y(500,oPlayer.y),oRoad).y+16,oPerson))
         {
             other.person = id;
-            depth = -4;
+            depth = -y;
         }
         
         loadedScriptVariables = false;
