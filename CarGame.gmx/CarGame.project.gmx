@@ -64,6 +64,7 @@
     <sprite>sprites\sPointer</sprite>
     <sprite>sprites\sLogo</sprite>
     <sprite>sprites\sBarrel</sprite>
+    <sprite>sprites\sControls</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bGrass</background>
@@ -118,6 +119,7 @@
     <object>objects\oQuest</object>
     <object>objects\oSpawner</object>
     <object>objects\oMenu</object>
+    <object>objects\oControlsScreen</object>
     <object>objects\oDestination</object>
     <object>objects\oPerson</object>
     <object>objects\oWall</object>
@@ -154,6 +156,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rmMenu</room>
+    <room>rooms\rmControls</room>
     <room>rooms\room2</room>
     <room>rooms\rmGame</room>
   </rooms>
